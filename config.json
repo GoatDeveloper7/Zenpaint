@@ -1,4 +1,5 @@
 {
     "SCREENSIZE":[1000,800],
-    "CANVASSIZE":[800,600]
+    "CANVASSIZE":[800,600],
+    "FULLSCREEN":["False"]
 }
