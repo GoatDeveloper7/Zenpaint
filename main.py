@@ -289,7 +289,7 @@ while running:
     dummyx, dummyy = percentPos(80,1)
     screen.blit(info_widgit, (dummyx, dummyy))
 
-    t = TEXT.render(f"{int(fps)}", True, (0,0,255))
+    t = TEXT.render("{}".format(int(fps)), True, (0,0,255))
     px, py = percentPos(90,1)
     screen.blit(t, (px,py))
 
